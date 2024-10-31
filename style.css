@@ -9,7 +9,16 @@ body {
 header {
   height: 20vh;
   background-color: black;
-  display: flex
+  display: flex;
+  justify-content: space-between;
+}
+
+nav {
+  margin: 1rem;
+}
+
+p {
+  color: white;
 }
 
 /* Logo */
