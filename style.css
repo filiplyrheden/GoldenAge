@@ -1,5 +1,18 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+header {
+  height: 20vh;
+  background-color: black;
+}
+
 /* Logo */
-@import url("https://fonts.googleapis.com/css2?family=Neonderthaw&display=swap");
+/* @import url("https://fonts.googleapis.com/css2?family=Neonderthaw&display=swap");
 
 body {
   background-color: black;
@@ -22,4 +35,4 @@ body {
   color: #e7b323;
   text-shadow: 0 -40px 100px, 0 0 2px, 0 0 1em #ff4444, 0 0 0.5em #ff4444,
     0 0 0.1em #ff4444, 0 10px 3px #000;
-}
+} */
