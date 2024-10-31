@@ -46,6 +46,11 @@ p {
 
 /* Main */
 
-.movies {
+.movie {
     background-color: blue;
+    width: 100px;
+    height: 100px;
+    gap: 20px;
+    margin: 20px;
+    
 }
