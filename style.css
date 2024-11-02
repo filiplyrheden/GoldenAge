@@ -14,7 +14,7 @@ body {
 
 header {
   height: 20vh;
-  background-color: black;
+  background: linear-gradient(180deg, rgba(0, 4, 55, 1) 70%, rgba(0, 4, 55, 0) 260%);
   display: flex;
   justify-content: space-between;
 }
@@ -49,11 +49,8 @@ p {
   font-style: normal;
   font-size: 7rem;
   color: #e7b323;
-  text-shadow:
-   0 0 0.5em #ff4444,
-    0 0 0.5em #ff4444,
-    0 0 0.1em #ff4444,
-     0 15px 3px #000;
+  text-shadow: 0 0 0.5em #ff4444, 0 0 0.5em #ff4444, 0 0 0.1em #ff4444,
+    0 15px 3px #000;
 }
 
 /* Main */
