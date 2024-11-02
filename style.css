@@ -14,7 +14,7 @@ body {
 
 header {
   height: 20vh;
-  background: linear-gradient(180deg, rgba(0, 4, 55, 1) 70%, rgba(0, 4, 55, 0) 260%);
+  background-color: #000437;
   display: flex;
   justify-content: space-between;
 }
@@ -51,6 +51,23 @@ p {
   color: #e7b323;
   text-shadow: 0 0 0.5em #ff4444, 0 0 0.5em #ff4444, 0 0 0.1em #ff4444,
     0 15px 3px #000;
+}
+
+/* Hero */
+
+.hero {
+  width: 100vw;
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: white; 
+  background-image: url('https://images.unsplash.com/photo-1612934622902-d3ad43c407b9?q=80&w=2874&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 
 /* Main */
