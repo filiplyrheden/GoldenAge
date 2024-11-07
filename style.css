@@ -22,7 +22,9 @@ html {
 
 body {
   margin: 0;
-  background-color: var(--dark-purple);
+  background-color: #000000;
+
+  
 }
 
 h2 {
@@ -130,16 +132,23 @@ p {
 }
 
 /* Main */
+
+main {
+  background-color: var(--dark-purple);
+
+}
 .movies-h2 {
   margin-top: 5rem;
   margin-left: 3rem;
   color: var(--white);
+  
 }
 
 .movies {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   justify-items: center;
+  
 }
 
 .movie {
@@ -147,6 +156,60 @@ p {
   width: 15rem;
   height: 22rem;
   margin: 2rem;
+}
+
+/* Footer */
+footer {
+height: 100%;
+background-color: #000000;
+display: flex;
+justify-content: space-around;
+display: flex;
+align-items:center;
+}
+
+.foot-nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.footer-nav ul {
+  list-style-type: none; 
+    padding: 0;
+    margin: 0;
+  
+}
+.footer-nav li {
+  margin-bottom: 1rem; /* Lägger till avstånd mellan listobjekten */
+}
+
+.footer-nav ul li {
+  color: white;
+  font-family: "Oswald", sans-serif;
+  font-size: 20px;
+  list-style-type: none;
+  font-weight: 400;
+  font-size: 3rem;
+  display: flex;
+  justify-content: space-around;
+ 
+  
+}
+
+.footer-nav ul li p {
+  display: flex;
+  padding: 0rem;
+  margin: 0.3rem;
+  font-size: 2rem;
+
+
+}
+
+.footer-nav ul li h2 {
+  font-family: "Oswald", sans-serif;
+  margin: 0.3rem;
+
 }
 
 /* Fonts */
