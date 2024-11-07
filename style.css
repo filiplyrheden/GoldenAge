@@ -1,5 +1,14 @@
 @import url("https://fonts.googleapis.com/css2?family=Neonderthaw&family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap");
 
+:root {
+  --black: #000000;
+  --dark-purple: #000437;
+  --medium-purple: #1B1468;
+  --light-purple: #4D2BAF;
+  --gold: #E7B323;
+  --white: #FFFFFF;
+}
+
 * {
   box-sizing: border-box;
 }
