@@ -22,6 +22,7 @@ html {
 
 body {
   margin: 0;
+  background-color: var(--dark-purple);
 }
 
 h2 {
@@ -132,6 +133,7 @@ p {
 .movies-h2 {
   margin-top: 5rem;
   margin-left: 3rem;
+  color: var(--white);
 }
 
 .movies {
