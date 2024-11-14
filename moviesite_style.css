@@ -1,4 +1,19 @@
 /* Movie Details Section */
+
+.moviesite-hero {
+    width: 100vw;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  }
+}
 .movie-details {
     display: flex;
     justify-content: space-between;
@@ -36,4 +51,26 @@
 .trailer, .gallery {
     position: relative;
     width: 45%;
+}
+
+.trailer img, .gallery img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.trailer-btn {
+    position: absolute;
+    bottom: 10%;
+    left: 10%;
+    padding: 10px 20px;
+    background-color: #ffc107;
+    color: #000;
+    border: none;
+    cursor: pointer;
+    font-size: 1em;
+    border-radius: 5px;
+}
+
+h1 .moviesite {
+    font-size: 48px;
 }
