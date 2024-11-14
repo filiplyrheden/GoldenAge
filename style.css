@@ -130,7 +130,7 @@ p {
   background-attachment: fixed;
 }
 
-.hero-text-container {
+.hero-h2-container {
   width: 80%;
   height: 50%;
   position: relative;
@@ -147,6 +147,25 @@ p {
   font-weight: 500;
   line-height: normal;
   text-transform: uppercase;
+}
+
+.hero-p-container {
+  width: 40%;
+  height: 50%;
+  position: relative;
+  top: 5rem;
+  left: 10rem;
+  text-align: justify;
+}
+
+.hero p {
+  color: #fff;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  font-family: "Oswald", sans-serif;
+  font-size: 2rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
 }
 
 /* Main */
