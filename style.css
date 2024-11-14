@@ -130,19 +130,36 @@ p {
   background-attachment: fixed;
 }
 
+.hero-text-container {
+  width: 80%;
+  height: 50%;
+  position: relative;
+  top: -21rem;
+  left: 0rem;
+}
+
+.hero h2 {
+  color: #fff;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  font-family: "Oswald", sans-serif;
+  font-size: 8rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  text-transform: uppercase;
+}
+
 /* Main */
 
 main {
   background-color: var(--dark-purple);
   width: 100vw;
-
 }
 .movies-h2 {
   margin-top: 0;
   padding-top: 5rem;
   margin-left: 6.8rem;
   color: var(--white);
-  
 }
 
 .movies {
@@ -178,8 +195,8 @@ main {
 }
 
 img {
-  width: 100%;  
-  height: auto; 
+  width: 100%;
+  height: auto;
 }
 
 img:hover {
@@ -189,12 +206,11 @@ img:hover {
 
 /* Footer */
 footer {
-height: auto;
-background-color: #000000;
-justify-content: space-between;
-display: flex;
-align-items:center;
-
+  height: auto;
+  background-color: #000000;
+  justify-content: space-between;
+  display: flex;
+  align-items: center;
 }
 
 .foot-nav {
@@ -206,9 +222,9 @@ align-items:center;
 }
 
 .footer-nav ul {
-    list-style-type: none; 
-    padding: 0;
-    margin: 0;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
 }
 
 .footer-nav li {
@@ -230,5 +246,4 @@ align-items:center;
   font-family: "Oswald", sans-serif;
   font-size: 2rem;
   margin: 0.3rem;
-
 }
