@@ -1,0 +1,39 @@
+/* Movie Details Section */
+.movie-details {
+    display: flex;
+    justify-content: space-between;
+    padding: 40px;
+    background-color: #111540;
+}
+
+.movie-info {
+    max-width: 60%;
+}
+
+.booking-btn {
+    padding: 10px 20px;
+    background-color: #ffc107;
+    color: #000;
+    border: none;
+    cursor: pointer;
+    font-size: 1em;
+    border-radius: 5px;
+}
+
+.movie-meta {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.trailer-section {
+    display: flex;
+    justify-content: space-around;
+    padding: 40px;
+    background-color: #0b0d25;
+}
+
+.trailer, .gallery {
+    position: relative;
+    width: 45%;
+}
