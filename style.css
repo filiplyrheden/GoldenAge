@@ -78,6 +78,20 @@ p {
     0 15px 3px #000;
 }
 
+.logo-footer {
+  margin-top: 2rem;
+  margin-left: 5rem;
+}
+
+.logo-footer b {
+  font-family: "Neonderthaw";
+  font-style: normal;
+  font-size: 3.5rem;
+  color: #e7b323;
+  text-shadow: 0 0 0.5em #ff4444, 0 0 0.5em #ff4444, 0 0 0.1em #ff4444,
+    0 15px 3px #000;
+}
+
 /* Curtains */
 .curtain {
   position: fixed;
@@ -194,7 +208,7 @@ align-items:center;
   color: white;
   font-family: "Oswald", sans-serif;
   list-style-type: none;
-  font-weight: 400;
+  font-weight: 200;
   margin-bottom: 0;
 }
 
@@ -202,94 +216,12 @@ align-items:center;
   display: flex;
   padding: 0rem;
   margin: 0.3rem;
-  font-size: 2rem;
-
-
+  font-size: 1.2rem;
 }
 
 .footer-nav h2 {
   font-family: "Oswald", sans-serif;
-  font-size: 4rem;
+  font-size: 2rem;
   margin: 0.3rem;
 
-}
-
-/* Fonts */
-.neonderthaw-regular {
-  font-family: "Neonderthaw", serif;
-  font-weight: 400;
-  font-style: normal;
-}
-
-.merriweather-light {
-  font-family: "Merriweather", serif;
-  font-weight: 300;
-  font-style: normal;
-}
-
-.merriweather-regular {
-  font-family: "Merriweather", serif;
-  font-weight: 400;
-  font-style: normal;
-}
-
-.merriweather-bold {
-  font-family: "Merriweather", serif;
-  font-weight: 700;
-  font-style: normal;
-}
-
-.merriweather-black {
-  font-family: "Merriweather", serif;
-  font-weight: 900;
-  font-style: normal;
-}
-
-.merriweather-light-italic {
-  font-family: "Merriweather", serif;
-  font-weight: 300;
-  font-style: italic;
-}
-
-.merriweather-regular-italic {
-  font-family: "Merriweather", serif;
-  font-weight: 400;
-  font-style: italic;
-}
-
-.merriweather-bold-italic {
-  font-family: "Merriweather", serif;
-  font-weight: 700;
-  font-style: italic;
-}
-
-.merriweather-black-italic {
-  font-family: "Merriweather", serif;
-  font-weight: 900;
-  font-style: italic;
-}
-
-.oswald {
-  font-family: "Oswald", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 400;
-  font-style: normal;
-}
-
-.libre-baskerville-regular {
-  font-family: "Libre Baskerville", serif;
-  font-weight: 400;
-  font-style: normal;
-}
-
-.libre-baskerville-bold {
-  font-family: "Libre Baskerville", serif;
-  font-weight: 700;
-  font-style: normal;
-}
-
-.libre-baskerville-regular-italic {
-  font-family: "Libre Baskerville", serif;
-  font-weight: 400;
-  font-style: italic;
 }
