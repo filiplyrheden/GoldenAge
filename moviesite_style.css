@@ -1,9 +1,8 @@
-/* Movie Details Section */
-
+/* Hero Section */
 .moviesite-hero {
     position: relative;
     width: 100%;
-    height: 80vh; /* Du kan justera höjden beroende på din design */
+    height: 80vh;
     background-image: url('lalaland-hero2.png');
     background-size: cover;
     background-position: center center;
@@ -13,13 +12,14 @@
 
 .hero-text {
     position: absolute;
-    top: 20px; /* Justera texten från toppen av .moviesite-hero */
-    left: 20px; /* Justera texten från vänstra kanten */
-    color: white; /* Textfärg */
-    font-size: 5rem; /* Justera storleken på texten */
+    top: 20px;
+    left: 20px;
+    color: white;
+    font-size: 5rem;
     font-family: "Oswald", sans-serif;
 }
 
+/* Movie Details Section */
 .movie-details {
     display: flex;
     justify-content: space-between;
@@ -27,42 +27,44 @@
     background-color: #111540;
 }
 
+.movie-info {
+    max-width: 60%;
+}
+
 .movie-info h2 {
     font-size: 10rem;
-    color:white;
+    color: white;
     font-family: "Oswald", sans-serif;
-    margin:0px;
-
+    margin: 0px;
 }
 
 .movie-info h3 {
     font-size: 4rem;
-    color:white;
+    color: white;
     font-family: "Oswald", sans-serif;
-
-
 }
 
 .movie-info p {
-    font-size: 2rem;
-    color:white;
+    font-size: 3rem;
+    color: white;
     font-family: "Oswald", sans-serif;
+}
 
+.movie-meta {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
 }
 
 .movie-meta strong {
     font-size: 4rem;
-    color:white;
+    color: white;
     font-family: "Oswald", sans-serif;
-    
 }
 
-.movie-details p {
+.movie-meta p {
     font-size: 2rem;
-}
-
-.movie-info {
-    max-width: 60%;
+    font-family: "Oswald", sans-serif;
 }
 
 .booking-btn {
@@ -75,12 +77,7 @@
     border-radius: 5px;
 }
 
-.movie-meta {
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-}
-
+/* Trailer Section */
 .trailer-section {
     display: flex;
     justify-content: space-around;
@@ -110,5 +107,6 @@
     font-size: 1em;
     border-radius: 5px;
 }
+
 
 
