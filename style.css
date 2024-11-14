@@ -134,6 +134,7 @@ p {
 
 main {
   background-color: var(--dark-purple);
+  width: 100vw;
 
 }
 .movies-h2 {
@@ -166,7 +167,6 @@ main {
     justify-items: center;
   }
 }
-
 
 .movie {
   background-color: blue;
