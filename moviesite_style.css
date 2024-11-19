@@ -68,12 +68,12 @@
 }
 
 .booking-btn {
-    padding: 10px 20px;
+    padding: 20px 40px;
     background-color: #ffc107;
     color: #000;
     border: none;
     cursor: pointer;
-    font-size: 1em;
+    font-size: 24px;
     border-radius: 5px;
 }
 
@@ -90,21 +90,21 @@
     width: 45%;
 }
 
-.trailer img, .gallery img {
+.trailer-img {
     width: 100%;
-    border-radius: 10px;
+    border-radius: 1px;
 }
 
 .trailer-btn {
     position: absolute;
-    bottom: 10%;
+    bottom: 15%;
     left: 10%;
-    padding: 10px 20px;
+    padding: 20px 40px;
     background-color: #ffc107;
     color: #000;
     border: none;
     cursor: pointer;
-    font-size: 1em;
+    font-size: 24px;
     border-radius: 5px;
 }
 
