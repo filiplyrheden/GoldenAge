@@ -1,9 +1,8 @@
 /* Hero Section */
 .moviesite-hero {
     height: 80vh;
-    background-image: url('lalaland-hero2.png');
+    background-image: url('lalaland.jpg');
     background-size: cover;
-    /* background-position: center center; */
     background-attachment: fixed;
 }
 
@@ -11,48 +10,51 @@
 .movie-details {
     display: flex;
     justify-content: space-between;
-    padding: 40px 70px;
     background-color: #111540;
+    padding: 5rem 3rem;
+    gap: 5rem;
+    flex-direction: column;
 }
 
 .movie-info {
-    max-width: 60%;
+    
 }
 
 .movie-info h2 {
-    font-size: 10rem;
+    font-size: 5rem;
     color: white;
     font-family: "Oswald", sans-serif;
     margin: 0px;
 }
 
 .movie-info h3 {
-    font-size: 4rem;
+    font-size: 2rem;
     color: white;
     font-family: "Oswald", sans-serif;
 }
 
 .movie-info p {
-    font-size: 3rem;
+    font-size: 2rem;
     color: white;
     font-family: "Oswald", sans-serif;
 }
 
 .movie-meta {
     display: flex;
-    flex-direction: column;
-    gap: 20px;
+    flex-direction: row;
+    gap: 2rem;
 }
 
 .movie-meta strong {
-    font-size: 4rem;
+    font-size: 1.5rem;
     color: white;
     font-family: "Oswald", sans-serif;
 }
 
 .movie-meta p {
-    font-size: 2rem;
+    font-size: 1.5rem;
     font-family: "Oswald", sans-serif;
+    margin: 0;
 }
 
 .booking-btn {
@@ -76,7 +78,7 @@ box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
 .trailer-section {
     display: flex;
     justify-content: space-around;
-    padding: 40px;
+    padding: 3rem 1.5rem;
     background-color: #0b0d25;
 }
 
@@ -114,10 +116,18 @@ box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
     .book-tickets {
         margin-left: auto;
         width: 20%;
+        
       }
 
       .movie-details {
         padding: 40px 70px;
+
+        .moviesite-hero {
+            height: 80vh;
+            background-image: url('lalaland-hero2.png');
+            background-size: cover;
+            background-attachment: fixed;
+        }
         
     }
 }
@@ -128,6 +138,13 @@ box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
         margin-left: auto;
         width: 20%;
       }
+
+      .moviesite-hero {
+        height: 80vh;
+        background-image: url('lalaland-hero2.png');
+        background-size: cover;
+        background-attachment: fixed;
+    }
 }
 
 

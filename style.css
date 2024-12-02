@@ -24,7 +24,7 @@ header {
   display: flex;
   justify-content: space-between;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-  margin: 0 3rem;
+margin: 0 3rem;
   align-items: center;
 }
 
@@ -52,8 +52,7 @@ p {
 
 /* Logo */
 .logo {
-  margin-top: 2rem;
-  margin-left: 3rem;
+  margin-left: 1rem;
 }
 
 .logo b {
@@ -66,7 +65,8 @@ p {
 }
 
 .logo-footer {
-  margin-top: 2rem;
+  margin-top: 3rem;
+  margin-left: 3rem;
 }
 
 .logo-footer b {
@@ -76,6 +76,7 @@ p {
   color: #e7b323;
   text-shadow: 0 0 0.5em #ff4444, 0 0 0.5em #ff4444, 0 0 0.1em #ff4444,
     0 15px 3px #000;
+    
 }
 
 /* Tablet */
@@ -327,18 +328,18 @@ img:hover {
 footer {
   height: auto;
   background-color: #000000;
-  justify-content: space-between;
   display: flex;
-  align-items: center;
+  flex-direction: column;
+  align-items: flex-start;
 }
 
 .foot-nav {
   display: flex;
-  justify-content: space-between;
-  padding: 20px;
-  gap: 5rem;
-  align-items: center;
+  gap: 3rem;
   padding: 0;
+  align-items: flex-start;
+  margin: 2rem 3rem 3rem 3rem;
+  
 }
 
 .footer-nav ul {
@@ -359,11 +360,13 @@ footer {
   display: flex;
   padding: 0rem;
   margin: 0.3rem;
-  font-size: 1.2rem;
+  font-size: 1.5rem;
 }
 
 .footer-nav h2 {
   font-family: "Oswald", sans-serif;
   font-size: 2rem;
   margin: 0.3rem;
+  border-bottom: 0.5px solid;
+  width: 9rem;
 }
