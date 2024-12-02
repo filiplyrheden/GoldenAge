@@ -64,20 +64,6 @@ p {
     0 10px 2px #000;
 }
 
-.logo-footer {
-  margin-top: 3rem;
-  margin-left: 3rem;
-}
-
-.logo-footer b {
-  font-family: "Neonderthaw";
-  font-style: normal;
-  font-size:clamp(6vw, 1.5vw, 10vw);
-  color: #e7b323;
-  text-shadow: 0 0 0.5em #ff4444, 0 0 0.5em #ff4444, 0 0 0.1em #ff4444,
-    0 15px 3px #000;
-    
-}
 
 /* Tablet */
 @media only screen and (min-width: 750px) {
@@ -331,16 +317,16 @@ footer {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
+  
+  
 }
 
 .foot-nav {
-  display: flex;
   gap: 3rem;
   padding: 0;
-  align-items: flex-start;
   margin: 2rem 3rem 3rem 3rem;
-  
 }
+
 
 .footer-nav ul {
   list-style-type: none;
@@ -357,16 +343,78 @@ footer {
 }
 
 .footer-nav p {
-  display: flex;
   padding: 0rem;
   margin: 0.3rem;
-  font-size: clamp(4vw, 1.5vw, 6vw);
+  font-size: clamp(3vw, 1.5vw, 6vw);
 }
 
 .footer-nav h2 {
   font-family: "Oswald", sans-serif;
-  font-size: clamp(5vw, 1.5vw, 10vw);
+  font-size: clamp(4vw, 1.5vw, 10vw);
   margin: 0.3rem;
   border-bottom: 0.5px solid;
   width:20vw
 }
+
+.logo-footer {
+  margin-top: 3rem;
+  margin-left: 3rem;
+}
+
+.logo-footer b {
+  font-family: "Neonderthaw";
+  font-style: normal;
+  font-size: clamp(6vw, 2vw, 10vw);
+  color: #e7b323;
+  text-shadow: 0 0 0.5em #ff4444, 0 0 0.5em #ff4444, 0 0 0.1em #ff4444,
+    0 15px 3px #000;
+   
+    
+}
+
+/* Footer Tablet */
+@media only screen and (min-width: 750px) {
+
+  .footer-nav h2 {
+    font-size: clamp(4vw, 1.5vw, 10vw);
+    margin: 0.3rem;
+    border-bottom: 1px solid;
+    
+  }
+
+  .logo-footer b {
+    font-size:clamp(7vw, 1.5vw, 10vw);
+    text-shadow: 0 0 0.5em #ff4444, 0 0 0.5em #ff4444, 0 0 0.1em #ff4444,
+      0 15px 3px #000;   
+  }
+  
+  .footer-nav p {
+    padding: 0rem;
+    margin: 0.3rem;
+    font-size: clamp(3vw, 1.5vw, 20rem);
+  }
+
+}
+
+/* Desktop Footer */
+@media only screen and (min-width: 992px) {
+  footer {
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-around;
+    
+  }
+
+  .footer-nav h2 {
+    font-size: clamp(2vw, 1.5vw, 10vw);
+    margin: 0.3rem;
+    border-bottom: 1.5px solid; 
+  }
+
+  .footer-nav p {
+    padding: 0rem;
+    margin: 0.3rem;
+    font-size: clamp(2vw, 1.5vw, 20rem);
+  }
+  
+  }
