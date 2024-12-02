@@ -68,14 +68,21 @@
 }
 
 .booking-btn {
-    padding: 20px 40px;
-    background-color: #ffc107;
-    color: #000;
-    border: none;
-    cursor: pointer;
-    font-size: 24px;
-    border-radius: 5px;
+background: linear-gradient(90deg, #d4af37, #f8e473);
+color: #000;
+font-size: 1.2rem;
+font-weight: bold;
+width: 40%;
+padding: 10px 20px;
+border: 2px solid #d4af37;
+border-radius: 5px;
+cursor: pointer;
+text-transform: uppercase;
+transition: all 0.3s ease-in-out;
+box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
 }
+
+
 
 /* Trailer Section */
 .trailer-section {
@@ -99,14 +106,25 @@
     position: absolute;
     bottom: 15%;
     left: 10%;
-    padding: 20px 40px;
-    background-color: #ffc107;
-    color: #000;
-    border: none;
-    cursor: pointer;
-    font-size: 24px;
-    border-radius: 5px;
+
+    background: linear-gradient(90deg, #d4af37, #f8e473);
+color: #000;
+font-size: 1.2rem;
+font-weight: bold;
+width: 40%;
+padding: 10px 20px;
+border: 2px solid #d4af37;
+border-radius: 5px;
+cursor: pointer;
+text-transform: uppercase;
+transition: all 0.3s ease-in-out;
+box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
 }
+
+/* Desktop */
+@media only screen and (min-width: 992px)
+
+
 
 
 
