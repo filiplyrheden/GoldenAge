@@ -52,16 +52,16 @@ p {
 /* Logo */
 .logo {
   margin-top: 2rem;
-  margin-left: 5rem;
+  margin-left: 2rem;
 }
 
 .logo b {
   font-family: "Neonderthaw";
   font-style: normal;
-  font-size: 7rem;
+  font-size: 5rem;
   color: #e7b323;
   text-shadow: 0 0 0.5em #ff4444, 0 0 0.5em #ff4444, 0 0 0.1em #ff4444,
-    0 15px 3px #000;
+    0 10px 2px #000;
 }
 
 .logo-footer {
@@ -76,6 +76,34 @@ p {
   color: #e7b323;
   text-shadow: 0 0 0.5em #ff4444, 0 0 0.5em #ff4444, 0 0 0.1em #ff4444,
     0 15px 3px #000;
+}
+
+/* Tablet */
+@media only screen and (min-width: 750px) {
+  .logo {
+    margin-top: 2.5rem;
+    margin-left: 4rem; 
+  }
+
+  .logo b {
+    font-size: 6rem; 
+    text-shadow: 0 0 0.5em #ff4444, 0 0 0.5em #ff4444, 0 0 0.1em #ff4444,
+      0 12px 3px #000; 
+  }
+}
+
+/* Desktop */
+@media only screen and (min-width: 992px) {
+  .logo {
+    margin-top: 3rem;
+    margin-left: 5rem;
+  }
+
+  .logo b {
+    font-size: 7rem; 
+    text-shadow: 0 0 0.5em #ff4444, 0 0 0.5em #ff4444, 0 0 0.1em #ff4444,
+      0 15px 3px #000; 
+  }
 }
 
 /* Curtains */
@@ -116,8 +144,8 @@ p {
 
 /* Hero */
 .hero {
+  height: 60vh; 
   width: 100vw;
-  height: 80vh;
   display: flex;
   justify-content: flex-end;
   align-items: center;
@@ -128,32 +156,34 @@ p {
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: fixed;
+  padding: 1rem;
 }
 
 .hero-content {
+  margin-right: auto;
+  margin-bottom: 2rem; 
+  align-items: center; 
   display: flex;
   flex-direction: column;
   width: 40%;
-  margin-right: 15rem;
-  margin-bottom: 10rem;
 }
 
 .hero h2 {
   color: #fff;
   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   font-family: "Oswald", sans-serif;
-  font-size: 7rem;
   font-style: normal;
   font-weight: 500;
-  line-height: normal;
   text-transform: uppercase;
+  font-size: 4rem;
+  line-height: 1.2; 
 }
 
 .hero p {
+  font-size: 1.6rem; 
   color: #fff;
   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   font-family: "Oswald", sans-serif;
-  font-size: 2rem;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
@@ -186,6 +216,46 @@ p {
 .book-tickets:active {
   transform: translateY(0);
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+/* Tablet */
+@media only screen and (min-width: 750px) {
+  .hero {
+    height: 70vh; 
+  }
+
+  .hero-content {
+    width: 60%; 
+    margin-right: 10rem; 
+  }
+
+  .hero h2 {
+    font-size: 5rem; 
+  }
+
+  .hero p {
+    font-size: 1.8rem; 
+  }
+}
+
+/* Desktop */
+@media only screen and (min-width: 992px) {
+  .hero {
+    height: 80vh; 
+  }
+
+  .hero-content {
+    width: 40%; 
+    margin-right: 15rem;
+  }
+
+  .hero h2 {
+    font-size: 7rem; 
+  }
+
+  .hero p {
+    font-size: 2rem; 
+  }
 }
 
 
@@ -246,6 +316,7 @@ img:hover {
 
 /* Footer */
 footer {
+  width: 100vw;
   height: auto;
   background-color: #000000;
   justify-content: space-between;
