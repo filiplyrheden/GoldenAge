@@ -1,7 +1,7 @@
 /* Hero Section */
 .moviesite-hero {
     height: 80vh;
-    background-image: url('lalaland.jpg');
+    background-image: url('images/lalaland.jpg');
     background-size: cover;
     background-attachment: fixed;
 }
@@ -124,7 +124,7 @@ box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
 
         .moviesite-hero {
             height: 80vh;
-            background-image: url('lalaland-hero2.png');
+            background-image: url('images/lalaland-hero2.png');
             background-size: cover;
             background-attachment: fixed;
         }
