@@ -1,29 +1,17 @@
 /* Hero Section */
 .moviesite-hero {
-    position: relative;
-    width: 100%;
     height: 80vh;
     background-image: url('lalaland-hero2.png');
     background-size: cover;
-    background-position: center center;
-    background-repeat: no-repeat;
+    /* background-position: center center; */
     background-attachment: fixed;
-}
-
-.hero-text {
-    position: absolute;
-    top: 20px;
-    left: 20px;
-    color: white;
-    font-size: 5rem;
-    font-family: "Oswald", sans-serif;
 }
 
 /* Movie Details Section */
 .movie-details {
     display: flex;
     justify-content: space-between;
-    padding: 40px;
+    padding: 40px 70px;
     background-color: #111540;
 }
 
@@ -122,8 +110,25 @@ box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
 }
 
 /* Desktop */
-@media only screen and (min-width: 992px)
+@media only screen and (min-width: 992px) {
+    .book-tickets {
+        margin-left: auto;
+        width: 20%;
+      }
 
+      .movie-details {
+        padding: 40px 70px;
+        
+    }
+}
+
+/* Tablet */
+@media only screen and (min-width: 750px) {
+    .book-tickets {
+        margin-left: auto;
+        width: 20%;
+      }
+}
 
 
 

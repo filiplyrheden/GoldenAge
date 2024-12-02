@@ -24,11 +24,12 @@ header {
   display: flex;
   justify-content: space-between;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  margin: 0 3rem;
+  align-items: center;
 }
 
 nav {
-  margin-top: 4rem;
-  margin-right: 5rem;
+  margin: 4rem 2rem;
   display: flex;
   gap: 2rem;
 }
@@ -52,13 +53,13 @@ p {
 /* Logo */
 .logo {
   margin-top: 2rem;
-  margin-left: 2rem;
+  margin-left: 3rem;
 }
 
 .logo b {
   font-family: "Neonderthaw";
   font-style: normal;
-  font-size: 5rem;
+  font-size: 4rem; 
   color: #e7b323;
   text-shadow: 0 0 0.5em #ff4444, 0 0 0.5em #ff4444, 0 0 0.1em #ff4444,
     0 10px 2px #000;
