@@ -83,9 +83,13 @@ footer {
       align-items: flex-start;
       justify-content: space-around;
     }
+
+    .logo-footer b {
+      font-size: clamp(4vw, 1.5vw, 10vw);
+    }
   
     .footer-nav h2 {
-      font-size: clamp(2vw, 1.5vw, 10vw);
+      font-size: clamp(1vw, 1.5vw, 10vw);
       margin: 0.3rem;
       border-bottom: 1.5px solid;
     }
@@ -93,7 +97,8 @@ footer {
     .footer-nav p {
       padding: 0rem;
       margin: 0.3rem;
-      font-size: clamp(2vw, 1.5vw, 20rem);
+      font-size: clamp(1vw, 1vw, 20rem);
     }
+
   }
   
