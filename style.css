@@ -310,3 +310,35 @@ img:hover {
   transform: translate(0, -5px);
 }
 
+.upcoming-movies {
+  display: grid;
+  grid-template-columns: 1fr;
+  justify-items: center;
+margin: 2.5rem;
+gap: 1.5rem;
+}
+
+.upcoming-movies-h2 {
+  margin-top: 0;
+  padding-top: 5rem;
+  margin-left: 6.8rem;
+  color: var(--white);
+}
+
+/* Tablet */
+@media only screen and (min-width: 750px) {
+  .upcoming-movies {
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
+  }
+}
+
+/* Desktop */
+@media only screen and (min-width: 992px) {
+  .upcoming-movies {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-items: center;
+  }
+}
