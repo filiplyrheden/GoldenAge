@@ -344,7 +344,7 @@ gap: 1.5rem;
 
 /* Newsletter */
 .newsletter-signup {
-  width: 60%;
+  width: 80%;
   padding: 2rem;
   text-align: center;
   margin: auto;
@@ -424,4 +424,11 @@ gap: 1.5rem;
   color: #fff;
   transform: translateY(-2px);
   box-shadow: 0 6px 8px rgba(0, 0, 0, 0.3);
+}
+
+/* Desktop */
+@media only screen and (min-width: 992px) {
+.newsletter-signup {
+  width: 60%;
+}
 }
