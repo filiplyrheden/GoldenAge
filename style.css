@@ -341,3 +341,87 @@ gap: 1.5rem;
     justify-items: center;
   }
 }
+
+/* Newsletter */
+.newsletter-signup {
+  width: 60%;
+  padding: 2rem;
+  text-align: center;
+  margin: auto;
+  margin-top: 8rem;
+  margin-bottom: 5rem;
+  border: 2px inset #d4af37; 
+}
+
+.newsletter-content h2 {
+  font-family: "Oswald", sans-serif;
+  font-size: 4rem;
+  color: #fff;
+  margin-bottom: 2rem;
+}
+
+.newsletter-content p {
+  font-size: 2rem;
+  color: #fff;
+}
+
+.newsletter-content ul {
+  list-style: inside;
+  padding: 0;
+  margin: 20px 0;
+}
+
+.newsletter-content ul li {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #d4af37; 
+  margin-bottom: 10px;
+  background: linear-gradient(90deg, #d4af37, #f8e473);
+  background-clip: text;
+  -webkit-text-fill-color: transparent; 
+}
+
+.newsletter-content ul li::marker {
+  content: '✓';
+}
+
+.newsletter-form {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.newsletter-form input[type="email"] {
+  width: 40%;
+  max-width: 400px;
+  padding: 1rem;
+  font-size: 1rem;
+  font-family: "Oswald", sans-serif;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.newsletter-form .signup-button {
+  background: linear-gradient(90deg, #d4af37, #f8e473);
+  color: #000;
+  font-family: "Oswald", sans-serif;
+  font-size: 1.2rem;
+  font-weight: bold;
+  padding: 1rem 2rem;
+  border: 2px solid #d4af37;
+  border-radius: 5px;
+  cursor: pointer;
+  text-transform: uppercase;
+  transition: all 0.3s ease-in-out;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+.newsletter-form .signup-button:hover {
+  background: linear-gradient(90deg, #f8e473, #d4af37);
+  color: #fff;
+  transform: translateY(-2px);
+  box-shadow: 0 6px 8px rgba(0, 0, 0, 0.3);
+}
