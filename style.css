@@ -54,8 +54,257 @@ h2 {
   transform: translateX(100%);
 }
 
+<<<<<<< HEAD
+=======
+/* Hero */
+.hero {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  text-align: center;
+  color: white;
+  background-image: url("images/hero-img.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  padding: 1rem;
+}
+
+.hero-content {
+  margin-left: auto;
+  margin-bottom: 2rem; 
+  align-items: center; 
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+}
+
+.hero h2 {
+  color: #fff;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  font-family: "Oswald", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  text-transform: uppercase;
+  font-size: 4rem;
+  line-height: 1.2; 
+}
+
+.hero p {
+  font-size: 1.6rem; 
+  color: #fff;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  font-family: "Oswald", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.book-tickets {
+  background: linear-gradient(90deg, #d4af37, #f8e473);
+  color: #000;
+  font-family: "Oswald", sans-serif;
+  font-size: 1.2rem;
+  font-weight: bold;
+  width: 40%;
+  padding: 10px 20px;
+  border: 2px solid #d4af37;
+  border-radius: 5px;
+  cursor: pointer;
+  text-transform: uppercase;
+  transition: all 0.3s ease-in-out;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+.book-tickets:hover {
+  background: linear-gradient(90deg, #f8e473, #d4af37);
+  color: #fff;
+  transform: translateY(-2px);
+  box-shadow: 0 6px 8px rgba(0, 0, 0, 0.3);
+}
+
+.book-tickets:active {
+  transform: translateY(0);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+/* Tablet */
+@media only screen and (min-width: 750px) {
+  .hero {
+    height: 70vh; 
+  }
+
+  .hero-content {
+    width: 60%; 
+    margin-right: 10rem; 
+  }
+
+  .hero h2 {
+    font-size: 5rem; 
+  }
+
+  .hero p {
+    font-size: 1.8rem; 
+  }
+
+  .book-tickets {
+    margin-left: auto;
+    width: 20%;
+  }
+}
+
+/* Desktop */
+@media only screen and (min-width: 992px) {
+  .hero {
+    height: 80vh; 
+  }
+
+  .hero-content {
+    width: 40%; 
+    margin-right: 15rem;
+  }
+
+  .hero h2 {
+    font-size: 7rem; 
+  }
+
+  .hero p {
+    font-size: 2rem; 
+  }
+
+  .book-tickets {
+    margin-left: auto;
+    width: 20%;
+  }
+}
+>>>>>>> refs/remotes/origin/main
 
 
 
 
 
+.upcoming-movies {
+  display: grid;
+  grid-template-columns: 1fr;
+  justify-items: center;
+margin: 2.5rem;
+gap: 1.5rem;
+}
+
+.upcoming-movies-h2 {
+  margin-top: 0;
+  padding-top: 5rem;
+  margin-left: 6.8rem;
+  color: var(--white);
+}
+
+/* Tablet */
+@media only screen and (min-width: 750px) {
+  .upcoming-movies {
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
+  }
+}
+
+/* Desktop */
+@media only screen and (min-width: 992px) {
+  .upcoming-movies {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-items: center;
+  }
+}
+
+/* Newsletter */
+.newsletter-signup {
+  width: 80%;
+  padding: 2rem;
+  text-align: center;
+  margin: auto;
+  margin-top: 8rem;
+  margin-bottom: 5rem;
+  border: 2px inset #d4af37; 
+}
+
+.newsletter-content h2 {
+  font-family: "Oswald", sans-serif;
+  font-size: 4rem;
+  color: #fff;
+  margin-bottom: 2rem;
+}
+
+.newsletter-content p {
+  font-size: 2rem;
+  color: #fff;
+}
+
+.newsletter-content ul {
+  list-style: inside;
+  padding: 0;
+  margin: 20px 0;
+}
+
+.newsletter-content ul li {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #d4af37; 
+  margin-bottom: 10px;
+  background: linear-gradient(90deg, #d4af37, #f8e473);
+  background-clip: text;
+  -webkit-text-fill-color: transparent; 
+}
+
+.newsletter-content ul li::marker {
+  content: '✓';
+}
+
+.newsletter-form {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.newsletter-form input[type="email"] {
+  width: 40%;
+  max-width: 400px;
+  padding: 1rem;
+  font-size: 1rem;
+  font-family: "Oswald", sans-serif;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.newsletter-form .signup-button {
+  background: linear-gradient(90deg, #d4af37, #f8e473);
+  color: #000;
+  font-family: "Oswald", sans-serif;
+  font-size: 1.2rem;
+  font-weight: bold;
+  padding: 1rem 2rem;
+  border: 2px solid #d4af37;
+  border-radius: 5px;
+  cursor: pointer;
+  text-transform: uppercase;
+  transition: all 0.3s ease-in-out;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+.newsletter-form .signup-button:hover {
+  background: linear-gradient(90deg, #f8e473, #d4af37);
+  color: #fff;
+  transform: translateY(-2px);
+  box-shadow: 0 6px 8px rgba(0, 0, 0, 0.3);
+}
+
+/* Desktop */
+@media only screen and (min-width: 992px) {
+.newsletter-signup {
+  width: 60%;
+}
+}
