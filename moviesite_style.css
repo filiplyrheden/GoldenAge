@@ -59,7 +59,11 @@
     font-family: "Oswald", sans-serif;
     font-size: 1.2rem;
     font-weight: bold;
+<<<<<<< HEAD
     width: 20%;
+=======
+    width: 10%;
+>>>>>>> refs/remotes/origin/main
     padding: 10px 20px;
     border: 2px solid #d4af37;
     border-radius: 5px;
@@ -134,7 +138,7 @@
 
       .moviesite-hero {
         height: 80vh;
-        background-image: url('images/lalaland-hero2.png');
+        background-image: url('images/lalaland-hero.png');
         background-size: cover;
         background-attachment: fixed;
     }

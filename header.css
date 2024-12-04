@@ -15,7 +15,7 @@ header {
   }
 
   nav p {
-    font-size: 2.5rem;
+    font-size: 2rem;
     font-family: "Oswald", sans-serif;
     font-optical-sizing: auto;
     font-weight: 400;
@@ -56,6 +56,10 @@ header {
       text-shadow: 0 0 0.5em #ff4444, 0 0 0.5em #ff4444, 0 0 0.1em #ff4444,
         0 12px 3px #000; 
     }
+
+    nav p {
+      font-size: 3rem;
+    }
   }
   
   /* Desktop */
@@ -70,4 +74,9 @@ header {
       text-shadow: 0 0 0.5em #ff4444, 0 0 0.5em #ff4444, 0 0 0.1em #ff4444,
         0 15px 3px #000; 
     }
+
+    nav p {
+      font-size: 3rem;
+    }
+    
   }
