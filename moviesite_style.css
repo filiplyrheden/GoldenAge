@@ -58,19 +58,21 @@
 }
 
 .booking-btn {
-background: linear-gradient(90deg, #943D22, #9a6b0d);
-color: #000;
-font-size: 1.2rem;
-font-weight: bold;
-width: 40%;
-padding: 10px 20px;
-border: 2px solid , #943D22;
-border-radius: 5px;
-cursor: pointer;
-text-transform: uppercase;
-transition: all 0.3s ease-in-out;
-box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    background: linear-gradient(90deg, #d4af37, #f8e473);
+    color: #000;
+    font-family: "Oswald", sans-serif;
+    font-size: 1.2rem;
+    font-weight: bold;
+    width: 40%;
+    padding: 10px 20px;
+    border: 2px solid #d4af37;
+    border-radius: 5px;
+    cursor: pointer;
+    text-transform: uppercase;
+    transition: all 0.3s ease-in-out;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
 }
+
 
 
 
@@ -89,27 +91,11 @@ box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
 
 .trailer-img {
     width: 100%;
-    border-radius: 1px;
 }
 
-.trailer-btn {
-    position: absolute;
-    bottom: 15%;
-    left: 10%;
 
-    background: linear-gradient(90deg,#E4AA25, #943D22);
-color: #000;
-font-size: 1.2rem;
-font-weight: bold;
-width: 40%;
-padding: 10px 20px;
-border: 2px solid #943D22;
-border-radius: 5px;
-cursor: pointer;
-text-transform: uppercase;
-transition: all 0.3s ease-in-out;
-box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
-}
+
+
 
 /* Desktop */
 @media only screen and (min-width: 992px) {
