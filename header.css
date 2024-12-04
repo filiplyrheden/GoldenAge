@@ -47,7 +47,6 @@ header {
   /* Tablet */
 @media only screen and (min-width: 750px) {
     .logo {
-      margin-top: 2.5rem;
       margin-left: 4rem; 
     }
   
@@ -65,7 +64,6 @@ header {
   /* Desktop */
   @media only screen and (min-width: 992px) {
     .logo {
-      margin-top: 3rem;
       margin-left: 5rem;
     }
   

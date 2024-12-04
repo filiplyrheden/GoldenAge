@@ -58,7 +58,7 @@ footer {
   /* Footer Tablet */
   @media only screen and (min-width: 750px) {
     .footer-nav h2 {
-      font-size: clamp(4vw, 1.5vw, 10vw);
+      font-size: clamp(3vw, 1.5vw, 10vw);
       margin: 0.3rem;
       border-bottom: 1px solid;
     }
@@ -66,7 +66,7 @@ footer {
     .footer-nav p {
       padding: 0rem;
       margin: 0.3rem;
-      font-size: clamp(3vw, 1.5vw, 20rem);
+      font-size: clamp(2.5vw, 1.5vw, 20rem);
     }
   
     .logo-footer b {
@@ -96,7 +96,7 @@ footer {
     }
   
     .footer-nav h2 {
-      font-size: clamp(2vw, 1.5vw, 10vw);
+      font-size: clamp(2.5vw, 1.5vw, 10vw);
       margin: 0.3rem;
       border-bottom: 1.5px solid;
     }
@@ -104,7 +104,7 @@ footer {
     .footer-nav p {
       padding: 0rem;
       margin: 0.3rem;
-      font-size: clamp(1.5vw, 1vw, 20rem);
+      font-size: clamp(2vw, 1vw, 20rem);
     }
 
   }
