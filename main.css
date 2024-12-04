@@ -1,0 +1,54 @@
+/* Main */
+
+main {
+    background-color: var(--dark-purple);
+    width: 100%;
+  }
+  .movies-h2 {
+    margin-top: 0;
+    padding-top: 5rem;
+    margin-left: 6.8rem;
+    color: var(--white);
+  }
+  
+  .movies {
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
+  }
+  
+  /* Tablet */
+  @media only screen and (min-width: 750px) {
+    .movies {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      justify-items: center;
+    }
+  }
+  
+  /* Desktop */
+  @media only screen and (min-width: 992px) {
+    .movies {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      justify-items: center;
+    }
+  }
+  
+  .movie {
+    background-color: blue;
+    width: 30rem;
+    height: 44rem;
+    margin: 2rem;
+    border-radius: 10px;
+  }
+  
+  img {
+    width: 100%;
+    height: auto;
+  }
+  
+  img:hover {
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.8);
+    transform: translate(0, -5px);
+  }
