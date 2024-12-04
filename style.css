@@ -179,9 +179,6 @@ h2 {
 }
 
 
-
-
-
 .upcoming-movies {
   display: grid;
   grid-template-columns: 1fr;
@@ -193,7 +190,7 @@ gap: 1.5rem;
 .upcoming-movies-h2 {
   margin-top: 0;
   padding-top: 5rem;
-  margin-left: 6.8rem;
+  margin-left: 3rem;
   color: var(--white);
 }
 

@@ -16,10 +16,6 @@
     flex-direction: column;
 }
 
-.movie-info {
-    
-}
-
 .movie-info h2 {
     font-size: 5rem;
     color: white;
@@ -63,7 +59,7 @@
     font-family: "Oswald", sans-serif;
     font-size: 1.2rem;
     font-weight: bold;
-    width: 40%;
+    width: 20%;
     padding: 10px 20px;
     border: 2px solid #d4af37;
     border-radius: 5px;
@@ -73,8 +69,18 @@
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
 }
 
-
-
+  
+.booking-btn:hover {
+    background: linear-gradient(90deg, #f8e473, #d4af37);
+    color: #fff;
+    transform: translateY(-2px);
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.3);
+  }
+  
+  .booking-btn:active {
+    transform: translateY(0);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+  }
 
 /* Trailer Section */
 .trailer-section {
